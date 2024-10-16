@@ -1,6 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 h3 {
   text-align: center;
 }
+
 .card {
   border: solid 1px #999;
   border-radius: 8px;
@@ -10,4 +15,27 @@ h3 {
 input[type="text"] {
   width: 200px;
   height: 25px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  height: 30px;
+}
+td.id {
+  width: 120px;
+  text-align: center;
+}
+
+td.company {
+  width: 150px;
+  text-align: center;
+}
+
+td.price {
+  text-align: right;
+  width: 100px;
 }
