@@ -46,7 +46,20 @@
     .item {
       font-size: 17px;
       padding: 5px;
-      color: var(--text-second-color);
+      color: var(--text-color);
+      position: relative;
+
+      &::before {
+        box-sizing: border-box;
+        content: "";
+        position: absolute;
+        top: 9px;
+        left: -17px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+        background-color: var(--first-color);
+      }
     }
   }
 }
